@@ -22,7 +22,7 @@ int add_numbers(int count, char **numbers)
     return sum;
 }
 
-void error_handling(int argc, char **argv)
+int error_handling(int argc, char **argv)
 {
     if (argc == 2 && strcmp(argv[1], "-h") == 0) {
         print_usage(argv[0]);
@@ -32,6 +32,7 @@ void error_handling(int argc, char **argv)
         printf("Not enough arguments.\n");
         return 84;
     }
+    return 0;
 }
 
 int main(int argc, char **argv)
