@@ -9,7 +9,7 @@ on:
       - ga-ignore-*
 
 env:
-  MIRROR_URL: 'git@github.com:Amayyas/PainAuChocolat_Tester.git'
+  MIRROR_URL: 'git@github.com:EpitechPGEPromo2029/B-DOP-200-MPL-2-1-chocolatine-amayyas.aouadene.git'
   EXECUTABLES: add
 
 jobs:
